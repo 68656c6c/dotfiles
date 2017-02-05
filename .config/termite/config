@@ -1,0 +1,82 @@
+#[options]
+#font = NotoMonoRegular (TTF)
+
+[colors]
+# special
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = #111214
+
+# black
+color0  = #282a2e
+color8  = #373b41
+
+# red
+color1  = #a54242
+color9  = #cc6666
+
+# green
+color2  = #8c9440
+color10 = #b5bd68
+
+# yellow
+color3  = #de935f
+color11 = #f0c674
+
+# blue
+color4  = #5f819d
+color12 = #84ffff
+
+# magenta
+color5  = #85678f
+color13 = #b294bb
+
+# cyan
+color6  = #5e8d87
+color14 = #8abeb7
+
+# white
+color7  = #707880
+color15 = #c5c8c6
+
+#[colors]
+
+# special
+# foreground      = #cdc5c4
+# foreground_bold = #cdc5c4
+# cursor          = #cdc5c4
+# background      = #15100f
+
+ # black
+# color0  = #211a1a
+# color8  = #decd6c
+
+ # red
+# color1  = #2b2222
+# color9  = #53e081
+
+ # green
+# color2  = #3e3232
+# color10 = #f1a5a0
+
+ # yellow
+# color3  = #584948
+# color11 = #9cade0
+
+ # blue
+# color4  = #796564
+# color12 = #6fa0ca
+
+ # magenta
+# color5  = #9e8785
+# color13 = #e29c97
+
+ # cyan
+# color6  = #beb2b1
+# color14 = #bfc8ea
+
+ # white
+# color7  = #e6e1e1
+# color15 = #b3a449
+

@@ -1,0 +1,119 @@
+! clean up urxvt, add keybinds
+URxvt.intensityStyles: false
+URxvt.scrollBar: false
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common
+
+! font
+URxvt*font: xft:terminus:medium:size=9
+
+! terminal spacing for no reason
+URxvt*letterSpace: -5 
+
+! terminal padding
+URxvt.internalBorder: 25
+
+! uncomment for transparent terminal if you are ready to be made fun of in #rice
+! URxvt.transparent:	true
+! URxvt.shading:		15
+
+! make otf / ttf fonts look pretty.  does not matter if you are using a bitmap font.
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! clickable links, clipboard support, mouse wheel support, and on the fly font resizing
+! you will need to install the relevent perl extensions for these to work
+URxvt.perl-ext-common: default,matcher,clipboard,vtwheel,resize-font
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+
+! colors
+*.cursorColor:  #ebdbb2
+! hard contrast: *background: #1d2021
+*.background: #282828
+#*.background: #e0fbfb
+! soft contrast: *background: #32302f
+*.foreground: #ebdbb2
+! Black + DarkGrey
+*.color0:  #282828
+*.color8:  #928374
+! DarkRed + Red
+*.color1:  #cc241d
+*.color9:  #fb4934
+! DarkGreen + Green
+*.color2:  #98971a
+*.color10: #b8bb26
+! DarkYellow + Yellow
+*.color3:  #d79921
+*.color11: #fabd2f
+! DarkBlue + Blue
+*.color4:  #458588
+*.color12: #83a598
+! DarkMagenta + Magenta
+*.color5:  #b16286
+*.color13: #d3869b
+! DarkCyan + Cyan
+*.color6:  #689d6a
+*.color14: #8ec07c
+! LightGrey + White
+*.color7:  #a89984
+*.color15: #ebdbb2
+! for 256 color stuff
+*.color24:  #076678
+*.color66:  #427b58
+*.color88:  #9d0006
+*.color96:  #8f3f71
+*.color100: #79740e
+*.color108: #8ec07c
+*.color109: #83a598
+*.color130: #af3a03
+*.color136: #b57614
+*.color142: #b8bb26
+*.color167: #fb4934
+*.color175: #d3869b
+*.color208: #fe8019
+*.color214: #fabd2f
+*.color223: #ebdbb2
+*.color228: #f4e8ba
+*.color229: #fdf4c1
+*.color230: #ffffc8
+*.color234: #1d2021
+*.color235: #282828
+*.color236: #32302f
+*.color237: #3c3836
+*.color239: #504945
+*.color241: #665c54
+*.color243: #7c6f64
+*.color244: #928374
+*.color245: #928374
+*.color246: #a89984
+*.color248: #bdae93
+*.color250: #d5c4a1
+
+rofi.width: 900
+rofi.padding: 480
+rofi.terminal: termite
+rofi.fullscreen: true
+rofi.lines: 9
+rofi.font: Hack 30
+rofi.color-window: argb:ee2B303B, argb:AA181818, #1818181
+rofi.color-normal: argb:00BF616A, #8FA1B3, argb:00BF616A, argb:00BF616A, #BF616A
+#rofi.color-enabled: true
+#rofi.color-window: argb:2ffdf6e3, argb:6f002b36, argb:4b000000
+#rofi.color-normal: #fdf6e3, #002b36, #eee8d5, #586e75, #eee8d5
+#rofi.color-active: #fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3
+#rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+#rofi.separator-style: none
+Xft.dpi: 100
+Xcursor.theme: Phoeton
+Xcursor.size: 20
